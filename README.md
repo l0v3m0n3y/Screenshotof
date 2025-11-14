@@ -1,7 +1,7 @@
 # Screenshotof
 api for Screenshotof.com json site archive
-# cpp
-```nim
+# main
+```cpp
 #include "Screenshotof.h"
 #include <iostream>
 
