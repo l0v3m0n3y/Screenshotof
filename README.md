@@ -8,7 +8,6 @@ api for Screenshotof.com json site archive
 int main() {
    Screenshotof api;
     
-    // Поиск выборов
     auto photos = api.get_screenshot_by_data("github.com","2024-04").then([](json::value result) {
         std::cout << "Search results: " << result.serialize() << std::endl;
     });
